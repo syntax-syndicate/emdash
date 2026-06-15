@@ -13,11 +13,11 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: packages/admin/src/routes/bylines.tsx:433
+#: packages/admin/src/routes/bylines.tsx:440
 msgid " - Guest"
 msgstr " - 访客"
 
-#: packages/admin/src/routes/bylines.tsx:433
+#: packages/admin/src/routes/bylines.tsx:440
 msgid " - Linked"
 msgstr " - 已关联"
 
@@ -35,7 +35,7 @@ msgstr "（在新窗口中打开）"
 msgid " (selected)"
 msgstr "（已选择）"
 
-#: packages/admin/src/routes/bylines.tsx:689
+#: packages/admin/src/routes/bylines.tsx:700
 msgid "-- Select --"
 msgstr "-- 选择 --"
 
@@ -736,7 +736,7 @@ msgstr "全部"
 msgid "All authors"
 msgstr ""
 
-#: packages/admin/src/routes/bylines.tsx:399
+#: packages/admin/src/routes/bylines.tsx:406
 msgid "All bylines"
 msgstr "所有署名"
 
@@ -1059,6 +1059,11 @@ msgstr "可用提供商"
 msgid "Available Widgets"
 msgstr "可用小部件"
 
+#: packages/admin/src/components/BylineAvatarField.tsx:46
+#: packages/admin/src/components/BylineAvatarField.tsx:71
+msgid "Avatar"
+msgstr ""
+
 #: packages/admin/src/components/editor/BlockMenu.tsx:257
 #: packages/admin/src/components/MenuEditor.tsx:283
 #: packages/admin/src/components/WordPressImport.tsx:1349
@@ -1117,7 +1122,7 @@ msgstr "发送前："
 msgid "Bing Verification"
 msgstr "Bing 验证"
 
-#: packages/admin/src/routes/bylines.tsx:483
+#: packages/admin/src/routes/bylines.tsx:490
 msgid "Bio"
 msgstr "简介"
 
@@ -1168,13 +1173,13 @@ msgid "Bullet List"
 msgstr "无序列表"
 
 #: packages/admin/src/routes/byline-schema.tsx:218
-#: packages/admin/src/routes/bylines.tsx:370
+#: packages/admin/src/routes/bylines.tsx:377
 msgid "Byline schema"
 msgstr "署名架构"
 
 #: packages/admin/src/components/ContentEditor.tsx:997
 #: packages/admin/src/components/Sidebar.tsx:363
-#: packages/admin/src/routes/bylines.tsx:362
+#: packages/admin/src/routes/bylines.tsx:369
 msgid "Bylines"
 msgstr "署名"
 
@@ -1697,7 +1702,7 @@ msgstr "无法检测到 WordPress"
 msgid "Couldn't load byline fields."
 msgstr "无法加载署名字段。"
 
-#: packages/admin/src/routes/bylines.tsx:530
+#: packages/admin/src/routes/bylines.tsx:541
 msgid "Couldn't load custom fields."
 msgstr "无法加载自定义字段。"
 
@@ -1724,7 +1729,7 @@ msgstr "数量"
 #: packages/admin/src/components/Sections.tsx:212
 #: packages/admin/src/components/TaxonomyManager.tsx:479
 #: packages/admin/src/components/Widgets.tsx:389
-#: packages/admin/src/routes/bylines.tsx:562
+#: packages/admin/src/routes/bylines.tsx:573
 msgid "Create"
 msgstr "创建"
 
@@ -1755,7 +1760,7 @@ msgid "Create an account"
 msgstr "创建账户"
 
 #: packages/admin/src/components/ContentEditor.tsx:2005
-#: packages/admin/src/routes/bylines.tsx:463
+#: packages/admin/src/routes/bylines.tsx:470
 msgid "Create byline"
 msgstr "创建署名"
 
@@ -2041,8 +2046,8 @@ msgstr "代码定义"
 #: packages/admin/src/components/TaxonomyManager.tsx:886
 #: packages/admin/src/components/Widgets.tsx:636
 #: packages/admin/src/routes/byline-schema.tsx:378
-#: packages/admin/src/routes/bylines.tsx:571
-#: packages/admin/src/routes/bylines.tsx:607
+#: packages/admin/src/routes/bylines.tsx:582
+#: packages/admin/src/routes/bylines.tsx:618
 msgid "Delete"
 msgstr "删除"
 
@@ -2087,7 +2092,7 @@ msgstr "删除 {0}？"
 msgid "Delete byline field?"
 msgstr "删除署名字段？"
 
-#: packages/admin/src/routes/bylines.tsx:605
+#: packages/admin/src/routes/bylines.tsx:616
 msgid "Delete Byline?"
 msgstr "删除署名？"
 
@@ -2190,7 +2195,7 @@ msgstr "删除\\”{0}\\“将同时移除所有署名中的 {1, plural, one {# 
 #: packages/admin/src/components/Sections.tsx:309
 #: packages/admin/src/components/TaxonomyManager.tsx:887
 #: packages/admin/src/components/Widgets.tsx:637
-#: packages/admin/src/routes/bylines.tsx:608
+#: packages/admin/src/routes/bylines.tsx:619
 msgid "Deleting..."
 msgstr "删除中..."
 
@@ -2345,7 +2350,7 @@ msgstr "显示导航菜单"
 
 #: packages/admin/src/components/ContentEditor.tsx:2008
 #: packages/admin/src/components/ContentEditor.tsx:2070
-#: packages/admin/src/routes/bylines.tsx:468
+#: packages/admin/src/routes/bylines.tsx:475
 msgid "Display name"
 msgstr "显示名称"
 
@@ -2518,7 +2523,7 @@ msgstr "编辑"
 #: packages/admin/src/components/TaxonomyManager.tsx:89
 #: packages/admin/src/components/TaxonomyManager.tsx:361
 #: packages/admin/src/routes/byline-schema.tsx:449
-#: packages/admin/src/routes/bylines.tsx:463
+#: packages/admin/src/routes/bylines.tsx:470
 msgid "Edit {0}"
 msgstr "编辑 {0}"
 
@@ -2838,7 +2843,7 @@ msgstr "分析 WordPress 站点失败"
 msgid "Failed to communicate with plugin"
 msgstr "与插件通信失败"
 
-#: packages/admin/src/lib/api/media.ts:136
+#: packages/admin/src/lib/api/media.ts:151
 msgid "Failed to confirm upload"
 msgstr ""
 
@@ -2910,11 +2915,11 @@ msgstr "删除内容失败"
 msgid "Failed to delete field"
 msgstr "删除字段失败"
 
-#: packages/admin/src/lib/api/media.ts:366
+#: packages/admin/src/lib/api/media.ts:381
 msgid "Failed to delete from provider"
 msgstr "从提供商处删除失败"
 
-#: packages/admin/src/lib/api/media.ts:240
+#: packages/admin/src/lib/api/media.ts:255
 msgid "Failed to delete media"
 msgstr "删除媒体失败"
 
@@ -3021,7 +3026,11 @@ msgstr "获取清单失败"
 msgid "Failed to fetch media"
 msgstr ""
 
-#: packages/admin/src/lib/api/media.ts:302
+#: packages/admin/src/lib/api/media.ts:85
+msgid "Failed to fetch media item"
+msgstr ""
+
+#: packages/admin/src/lib/api/media.ts:317
 msgid "Failed to fetch media providers"
 msgstr ""
 
@@ -3034,7 +3043,7 @@ msgstr "获取插件失败"
 msgid "Failed to fetch plugins"
 msgstr ""
 
-#: packages/admin/src/lib/api/media.ts:332
+#: packages/admin/src/lib/api/media.ts:347
 msgid "Failed to fetch provider media"
 msgstr ""
 
@@ -3087,7 +3096,7 @@ msgstr "获取身份验证选项失败"
 msgid "Failed to get registration options"
 msgstr "获取注册选项失败"
 
-#: packages/admin/src/lib/api/media.ts:112
+#: packages/admin/src/lib/api/media.ts:127
 msgid "Failed to get upload URL"
 msgstr ""
 
@@ -3118,7 +3127,7 @@ msgid "Failed to load allowed domains"
 msgstr "加载允许域名失败"
 
 #. placeholder {0}: error.message
-#: packages/admin/src/routes/bylines.tsx:352
+#: packages/admin/src/routes/bylines.tsx:359
 msgid "Failed to load bylines: {0}"
 msgstr "加载署名失败：{0}"
 
@@ -3306,7 +3315,7 @@ msgstr "更新署名字段失败"
 msgid "Failed to update domain"
 msgstr "更新域名失败"
 
-#: packages/admin/src/lib/api/media.ts:257
+#: packages/admin/src/lib/api/media.ts:272
 msgid "Failed to update media"
 msgstr ""
 
@@ -3327,15 +3336,15 @@ msgstr ""
 msgid "Failed to update status"
 msgstr "更新状态失败"
 
-#: packages/admin/src/lib/api/media.ts:154
+#: packages/admin/src/lib/api/media.ts:169
 msgid "Failed to upload file"
 msgstr "上传文件失败"
 
-#: packages/admin/src/lib/api/media.ts:199
+#: packages/admin/src/lib/api/media.ts:214
 msgid "Failed to upload media"
 msgstr ""
 
-#: packages/admin/src/lib/api/media.ts:354
+#: packages/admin/src/lib/api/media.ts:369
 msgid "Failed to upload to provider"
 msgstr ""
 
@@ -3461,7 +3470,7 @@ msgstr "按状态筛选"
 msgid "Filter by type"
 msgstr "按类型筛选"
 
-#: packages/admin/src/routes/bylines.tsx:395
+#: packages/admin/src/routes/bylines.tsx:402
 msgid "Filter byline type"
 msgstr "按署名类型筛选"
 
@@ -3543,11 +3552,11 @@ msgstr "网格视图"
 msgid "Group (optional)"
 msgstr "组（可选）"
 
-#: packages/admin/src/routes/bylines.tsx:538
+#: packages/admin/src/routes/bylines.tsx:549
 msgid "Guest byline"
 msgstr "访客署名"
 
-#: packages/admin/src/routes/bylines.tsx:400
+#: packages/admin/src/routes/bylines.tsx:407
 msgid "Guest only"
 msgstr "仅访客"
 
@@ -4094,11 +4103,11 @@ msgstr "链接到另一个内容项"
 msgid "Linked Accounts ({0})"
 msgstr "已关联账户 ({0})"
 
-#: packages/admin/src/routes/bylines.tsx:401
+#: packages/admin/src/routes/bylines.tsx:408
 msgid "Linked only"
 msgstr "仅已关联"
 
-#: packages/admin/src/routes/bylines.tsx:489
+#: packages/admin/src/routes/bylines.tsx:500
 msgid "Linked user"
 msgstr "已关联用户"
 
@@ -4122,7 +4131,7 @@ msgstr "实时预览"
 #: packages/admin/src/components/MarketplaceBrowse.tsx:198
 #: packages/admin/src/components/RegistryBrowse.tsx:143
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:170
-#: packages/admin/src/routes/bylines.tsx:455
+#: packages/admin/src/routes/bylines.tsx:462
 msgid "Load more"
 msgstr "加载更多"
 
@@ -4215,7 +4224,7 @@ msgstr "正在加载小部件..."
 #: packages/admin/src/components/ThemeMarketplaceDetail.tsx:143
 #: packages/admin/src/components/users/UserList.tsx:156
 #: packages/admin/src/components/WelcomeModal.tsx:143
-#: packages/admin/src/routes/bylines.tsx:455
+#: packages/admin/src/routes/bylines.tsx:462
 msgid "Loading..."
 msgstr "加载中..."
 
@@ -4599,7 +4608,7 @@ msgstr "从未"
 msgid "new"
 msgstr "新建"
 
-#: packages/admin/src/routes/bylines.tsx:413
+#: packages/admin/src/routes/bylines.tsx:420
 msgid "New"
 msgstr "新建"
 
@@ -4732,7 +4741,7 @@ msgstr "暂无署名字段。"
 msgid "No bylines available in {entryLocale}. Create a variant from the Bylines page before crediting one on this entry."
 msgstr "在 {entryLocale} 中没有可用的署名。请先从署名页面创建一个变体，然后再在此条目中署名。"
 
-#: packages/admin/src/routes/bylines.tsx:439
+#: packages/admin/src/routes/bylines.tsx:446
 msgid "No bylines found"
 msgstr "未找到署名"
 
@@ -4821,7 +4830,7 @@ msgstr "暂无项目"
 msgid "No limit"
 msgstr "无限制"
 
-#: packages/admin/src/routes/bylines.tsx:500
+#: packages/admin/src/routes/bylines.tsx:511
 msgid "No linked user"
 msgstr "无关联用户"
 
@@ -5875,7 +5884,7 @@ msgstr "同一窗口"
 #: packages/admin/src/components/Redirects.tsx:183
 #: packages/admin/src/components/SaveButton.tsx:42
 #: packages/admin/src/components/Widgets.tsx:894
-#: packages/admin/src/routes/bylines.tsx:562
+#: packages/admin/src/routes/bylines.tsx:573
 msgid "Save"
 msgstr "保存"
 
@@ -5946,7 +5955,7 @@ msgstr ""
 #: packages/admin/src/components/TaxonomyManager.tsx:476
 #: packages/admin/src/components/users/UserDetail.tsx:311
 #: packages/admin/src/components/Widgets.tsx:894
-#: packages/admin/src/routes/bylines.tsx:562
+#: packages/admin/src/routes/bylines.tsx:573
 msgid "Saving..."
 msgstr "保存中..."
 
@@ -6072,7 +6081,7 @@ msgid "Search by name or email..."
 msgstr "按名称或邮箱搜索..."
 
 #: packages/admin/src/components/ContentEditor.tsx:1902
-#: packages/admin/src/routes/bylines.tsx:388
+#: packages/admin/src/routes/bylines.tsx:395
 msgid "Search bylines"
 msgstr "搜索署名"
 
@@ -6593,7 +6602,7 @@ msgstr "已跳过"
 #: packages/admin/src/components/Sections.tsx:184
 #: packages/admin/src/components/TaxonomyManager.tsx:398
 #: packages/admin/src/routes/byline-schema.tsx:237
-#: packages/admin/src/routes/bylines.tsx:473
+#: packages/admin/src/routes/bylines.tsx:480
 msgid "Slug"
 msgstr "别名"
 
@@ -6957,7 +6966,7 @@ msgstr "此重定向规则将被永久移除。"
 msgid "This release requires a newer environment than your site currently runs. Upgrade before installing."
 msgstr "此版本需要比您站点当前运行的更新版本的环境。请在安装前升级。"
 
-#: packages/admin/src/routes/bylines.tsx:606
+#: packages/admin/src/routes/bylines.tsx:617
 msgid "This removes the byline profile. Content byline links are removed and lead pointers are cleared."
 msgstr "这将删除署名配置文件。内容署名链接将被移除，主要指针将被清除。"
 
@@ -7698,7 +7707,7 @@ msgstr "此浏览器不支持 WebAuthn"
 msgid "Website"
 msgstr "网站"
 
-#: packages/admin/src/routes/bylines.tsx:478
+#: packages/admin/src/routes/bylines.tsx:485
 msgid "Website URL"
 msgstr "网站 URL"
 
@@ -7829,7 +7838,7 @@ msgstr "您可以创建和编辑自己的内容。"
 msgid "You can manage content, media, menus, and taxonomies."
 msgstr "您可以管理内容、媒体、菜单和分类。"
 
-#: packages/admin/src/routes/bylines.tsx:532
+#: packages/admin/src/routes/bylines.tsx:543
 msgid "You can still edit the fixed fields above. Saving will not touch any stored custom-field values."
 msgstr "您仍可编辑上方的固定字段。保存不会影响任何已存储的自定义字段值。"
 

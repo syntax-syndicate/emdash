@@ -13,11 +13,11 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: packages/admin/src/routes/bylines.tsx:433
+#: packages/admin/src/routes/bylines.tsx:440
 msgid " - Guest"
 msgstr " - Gast"
 
-#: packages/admin/src/routes/bylines.tsx:433
+#: packages/admin/src/routes/bylines.tsx:440
 msgid " - Linked"
 msgstr " - Zugeordnet"
 
@@ -35,7 +35,7 @@ msgstr " (öffnet in neuem Tab)"
 msgid " (selected)"
 msgstr " (ausgewählt)"
 
-#: packages/admin/src/routes/bylines.tsx:689
+#: packages/admin/src/routes/bylines.tsx:700
 msgid "-- Select --"
 msgstr ""
 
@@ -736,7 +736,7 @@ msgstr "Alle"
 msgid "All authors"
 msgstr ""
 
-#: packages/admin/src/routes/bylines.tsx:399
+#: packages/admin/src/routes/bylines.tsx:406
 msgid "All bylines"
 msgstr "Alle Autorenzeilen"
 
@@ -1059,6 +1059,11 @@ msgstr "Verfügbare Anbieter"
 msgid "Available Widgets"
 msgstr "Verfügbare Widgets"
 
+#: packages/admin/src/components/BylineAvatarField.tsx:46
+#: packages/admin/src/components/BylineAvatarField.tsx:71
+msgid "Avatar"
+msgstr ""
+
 #: packages/admin/src/components/editor/BlockMenu.tsx:257
 #: packages/admin/src/components/MenuEditor.tsx:283
 #: packages/admin/src/components/WordPressImport.tsx:1349
@@ -1117,7 +1122,7 @@ msgstr "Vor dem Senden:"
 msgid "Bing Verification"
 msgstr "Bing-Verifizierung"
 
-#: packages/admin/src/routes/bylines.tsx:483
+#: packages/admin/src/routes/bylines.tsx:490
 msgid "Bio"
 msgstr "Bio"
 
@@ -1168,13 +1173,13 @@ msgid "Bullet List"
 msgstr "Aufzählungsliste"
 
 #: packages/admin/src/routes/byline-schema.tsx:218
-#: packages/admin/src/routes/bylines.tsx:370
+#: packages/admin/src/routes/bylines.tsx:377
 msgid "Byline schema"
 msgstr ""
 
 #: packages/admin/src/components/ContentEditor.tsx:997
 #: packages/admin/src/components/Sidebar.tsx:363
-#: packages/admin/src/routes/bylines.tsx:362
+#: packages/admin/src/routes/bylines.tsx:369
 msgid "Bylines"
 msgstr "Autorenzeilen"
 
@@ -1697,7 +1702,7 @@ msgstr "WordPress wurde nicht erkannt"
 msgid "Couldn't load byline fields."
 msgstr ""
 
-#: packages/admin/src/routes/bylines.tsx:530
+#: packages/admin/src/routes/bylines.tsx:541
 msgid "Couldn't load custom fields."
 msgstr ""
 
@@ -1724,7 +1729,7 @@ msgstr "Anzahl"
 #: packages/admin/src/components/Sections.tsx:212
 #: packages/admin/src/components/TaxonomyManager.tsx:479
 #: packages/admin/src/components/Widgets.tsx:389
-#: packages/admin/src/routes/bylines.tsx:562
+#: packages/admin/src/routes/bylines.tsx:573
 msgid "Create"
 msgstr "Erstellen"
 
@@ -1755,7 +1760,7 @@ msgid "Create an account"
 msgstr "Erstelle ein Benutzerkonto"
 
 #: packages/admin/src/components/ContentEditor.tsx:2005
-#: packages/admin/src/routes/bylines.tsx:463
+#: packages/admin/src/routes/bylines.tsx:470
 msgid "Create byline"
 msgstr "Autorenzeile erstellen"
 
@@ -2041,8 +2046,8 @@ msgstr "Definiert mittels Code"
 #: packages/admin/src/components/TaxonomyManager.tsx:886
 #: packages/admin/src/components/Widgets.tsx:636
 #: packages/admin/src/routes/byline-schema.tsx:378
-#: packages/admin/src/routes/bylines.tsx:571
-#: packages/admin/src/routes/bylines.tsx:607
+#: packages/admin/src/routes/bylines.tsx:582
+#: packages/admin/src/routes/bylines.tsx:618
 msgid "Delete"
 msgstr "Entfernen"
 
@@ -2087,7 +2092,7 @@ msgstr "{0} entfernen?"
 msgid "Delete byline field?"
 msgstr ""
 
-#: packages/admin/src/routes/bylines.tsx:605
+#: packages/admin/src/routes/bylines.tsx:616
 msgid "Delete Byline?"
 msgstr "Autorenzeile entfernen?"
 
@@ -2190,7 +2195,7 @@ msgstr ""
 #: packages/admin/src/components/Sections.tsx:309
 #: packages/admin/src/components/TaxonomyManager.tsx:887
 #: packages/admin/src/components/Widgets.tsx:637
-#: packages/admin/src/routes/bylines.tsx:608
+#: packages/admin/src/routes/bylines.tsx:619
 msgid "Deleting..."
 msgstr "Entfernen..."
 
@@ -2345,7 +2350,7 @@ msgstr "Ein Navigationsmenü anzeigen"
 
 #: packages/admin/src/components/ContentEditor.tsx:2008
 #: packages/admin/src/components/ContentEditor.tsx:2070
-#: packages/admin/src/routes/bylines.tsx:468
+#: packages/admin/src/routes/bylines.tsx:475
 msgid "Display name"
 msgstr "Anzeigename"
 
@@ -2518,7 +2523,7 @@ msgstr ""
 #: packages/admin/src/components/TaxonomyManager.tsx:89
 #: packages/admin/src/components/TaxonomyManager.tsx:361
 #: packages/admin/src/routes/byline-schema.tsx:449
-#: packages/admin/src/routes/bylines.tsx:463
+#: packages/admin/src/routes/bylines.tsx:470
 msgid "Edit {0}"
 msgstr "{0} bearbeiten"
 
@@ -2835,7 +2840,7 @@ msgstr "Analyse der WordPress-Webseite fehlgeschlagen"
 msgid "Failed to communicate with plugin"
 msgstr "Kommunikation mit Erweiterung fehlgeschlagen"
 
-#: packages/admin/src/lib/api/media.ts:136
+#: packages/admin/src/lib/api/media.ts:151
 msgid "Failed to confirm upload"
 msgstr ""
 
@@ -2907,11 +2912,11 @@ msgstr "Entfernen des Inhalts fehlgeschlagen"
 msgid "Failed to delete field"
 msgstr "Entfernen des Felds fehlgeschlagen"
 
-#: packages/admin/src/lib/api/media.ts:366
+#: packages/admin/src/lib/api/media.ts:381
 msgid "Failed to delete from provider"
 msgstr "Entfernen der Datei beim Speicheranbieter fehlgeschlagen"
 
-#: packages/admin/src/lib/api/media.ts:240
+#: packages/admin/src/lib/api/media.ts:255
 msgid "Failed to delete media"
 msgstr "Entfernen der Datei fehlgeschlagen"
 
@@ -3018,7 +3023,11 @@ msgstr "Abrufen des Manifests fehlgeschlagen"
 msgid "Failed to fetch media"
 msgstr ""
 
-#: packages/admin/src/lib/api/media.ts:302
+#: packages/admin/src/lib/api/media.ts:85
+msgid "Failed to fetch media item"
+msgstr ""
+
+#: packages/admin/src/lib/api/media.ts:317
 msgid "Failed to fetch media providers"
 msgstr ""
 
@@ -3031,7 +3040,7 @@ msgstr "Abrufen der Erweiterung fehlgeschlagen"
 msgid "Failed to fetch plugins"
 msgstr ""
 
-#: packages/admin/src/lib/api/media.ts:332
+#: packages/admin/src/lib/api/media.ts:347
 msgid "Failed to fetch provider media"
 msgstr ""
 
@@ -3084,7 +3093,7 @@ msgstr "Abrufen der Authentifizierungsoptionen fehlgeschlagen"
 msgid "Failed to get registration options"
 msgstr "Abrufen der Registrierungsoptionen fehlgeschlagen"
 
-#: packages/admin/src/lib/api/media.ts:112
+#: packages/admin/src/lib/api/media.ts:127
 msgid "Failed to get upload URL"
 msgstr ""
 
@@ -3115,7 +3124,7 @@ msgid "Failed to load allowed domains"
 msgstr "Laden erlaubter Domains fehlgeschlagen"
 
 #. placeholder {0}: error.message
-#: packages/admin/src/routes/bylines.tsx:352
+#: packages/admin/src/routes/bylines.tsx:359
 msgid "Failed to load bylines: {0}"
 msgstr "Laden der Autorenzeilen fehlgeschlagen: {0}"
 
@@ -3303,7 +3312,7 @@ msgstr ""
 msgid "Failed to update domain"
 msgstr "Aktualisieren der Domain fehlgeschlagen"
 
-#: packages/admin/src/lib/api/media.ts:257
+#: packages/admin/src/lib/api/media.ts:272
 msgid "Failed to update media"
 msgstr ""
 
@@ -3324,15 +3333,15 @@ msgstr ""
 msgid "Failed to update status"
 msgstr "Aktualisieren des Status fehlgeschlagen"
 
-#: packages/admin/src/lib/api/media.ts:154
+#: packages/admin/src/lib/api/media.ts:169
 msgid "Failed to upload file"
 msgstr "Hochladen der Datei fehlgeschlagen"
 
-#: packages/admin/src/lib/api/media.ts:199
+#: packages/admin/src/lib/api/media.ts:214
 msgid "Failed to upload media"
 msgstr ""
 
-#: packages/admin/src/lib/api/media.ts:354
+#: packages/admin/src/lib/api/media.ts:369
 msgid "Failed to upload to provider"
 msgstr ""
 
@@ -3458,7 +3467,7 @@ msgstr "Nach Status filtern"
 msgid "Filter by type"
 msgstr "Nach Typ filtern"
 
-#: packages/admin/src/routes/bylines.tsx:395
+#: packages/admin/src/routes/bylines.tsx:402
 msgid "Filter byline type"
 msgstr "Autorenzeilen-Typ filtern"
 
@@ -3540,11 +3549,11 @@ msgstr "Rasteransicht"
 msgid "Group (optional)"
 msgstr "Gruppe (optional)"
 
-#: packages/admin/src/routes/bylines.tsx:538
+#: packages/admin/src/routes/bylines.tsx:549
 msgid "Guest byline"
 msgstr "Gast-Autorenzeile"
 
-#: packages/admin/src/routes/bylines.tsx:400
+#: packages/admin/src/routes/bylines.tsx:407
 msgid "Guest only"
 msgstr "Nur Gäste"
 
@@ -4091,11 +4100,11 @@ msgstr "Link zu anderem Inhaltselement"
 msgid "Linked Accounts ({0})"
 msgstr "Verbundene Konten ({0})"
 
-#: packages/admin/src/routes/bylines.tsx:401
+#: packages/admin/src/routes/bylines.tsx:408
 msgid "Linked only"
 msgstr "Nur Zugeordnete"
 
-#: packages/admin/src/routes/bylines.tsx:489
+#: packages/admin/src/routes/bylines.tsx:500
 msgid "Linked user"
 msgstr "Zugeordneter Benutzer"
 
@@ -4119,7 +4128,7 @@ msgstr "Live-Ansicht"
 #: packages/admin/src/components/MarketplaceBrowse.tsx:198
 #: packages/admin/src/components/RegistryBrowse.tsx:143
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:170
-#: packages/admin/src/routes/bylines.tsx:455
+#: packages/admin/src/routes/bylines.tsx:462
 msgid "Load more"
 msgstr "Mehr laden"
 
@@ -4212,7 +4221,7 @@ msgstr "Lade Widgets..."
 #: packages/admin/src/components/ThemeMarketplaceDetail.tsx:143
 #: packages/admin/src/components/users/UserList.tsx:156
 #: packages/admin/src/components/WelcomeModal.tsx:143
-#: packages/admin/src/routes/bylines.tsx:455
+#: packages/admin/src/routes/bylines.tsx:462
 msgid "Loading..."
 msgstr "Laden..."
 
@@ -4596,7 +4605,7 @@ msgstr "Nie"
 msgid "new"
 msgstr "neu"
 
-#: packages/admin/src/routes/bylines.tsx:413
+#: packages/admin/src/routes/bylines.tsx:420
 msgid "New"
 msgstr "Neu"
 
@@ -4729,7 +4738,7 @@ msgstr ""
 msgid "No bylines available in {entryLocale}. Create a variant from the Bylines page before crediting one on this entry."
 msgstr "Keine Autorenzeile in {entryLocale} verfügbar. Erstelle zuerst auf der Seite Autorenzeilen eine Variante, bevor du sie diesem Eintrag zuweist."
 
-#: packages/admin/src/routes/bylines.tsx:439
+#: packages/admin/src/routes/bylines.tsx:446
 msgid "No bylines found"
 msgstr "Keine Autorenzeile gefunden"
 
@@ -4818,7 +4827,7 @@ msgstr "Noch keine Elemente"
 msgid "No limit"
 msgstr "Kein Limit"
 
-#: packages/admin/src/routes/bylines.tsx:500
+#: packages/admin/src/routes/bylines.tsx:511
 msgid "No linked user"
 msgstr "Kein zugeordneter Benutzer"
 
@@ -5872,7 +5881,7 @@ msgstr "Aktueller Tab"
 #: packages/admin/src/components/Redirects.tsx:183
 #: packages/admin/src/components/SaveButton.tsx:42
 #: packages/admin/src/components/Widgets.tsx:894
-#: packages/admin/src/routes/bylines.tsx:562
+#: packages/admin/src/routes/bylines.tsx:573
 msgid "Save"
 msgstr "Speichern"
 
@@ -5943,7 +5952,7 @@ msgstr ""
 #: packages/admin/src/components/TaxonomyManager.tsx:476
 #: packages/admin/src/components/users/UserDetail.tsx:311
 #: packages/admin/src/components/Widgets.tsx:894
-#: packages/admin/src/routes/bylines.tsx:562
+#: packages/admin/src/routes/bylines.tsx:573
 msgid "Saving..."
 msgstr "Speichern..."
 
@@ -6069,7 +6078,7 @@ msgid "Search by name or email..."
 msgstr "Suche anhand von Name oder E-Mail-Adresse"
 
 #: packages/admin/src/components/ContentEditor.tsx:1902
-#: packages/admin/src/routes/bylines.tsx:388
+#: packages/admin/src/routes/bylines.tsx:395
 msgid "Search bylines"
 msgstr "Autorenzeilen durchsuchen"
 
@@ -6590,7 +6599,7 @@ msgstr "Übersprungen"
 #: packages/admin/src/components/Sections.tsx:184
 #: packages/admin/src/components/TaxonomyManager.tsx:398
 #: packages/admin/src/routes/byline-schema.tsx:237
-#: packages/admin/src/routes/bylines.tsx:473
+#: packages/admin/src/routes/bylines.tsx:480
 msgid "Slug"
 msgstr "Slug"
 
@@ -6954,7 +6963,7 @@ msgstr "Diese Weiterleitungsregel wird endgültig gelöscht."
 msgid "This release requires a newer environment than your site currently runs. Upgrade before installing."
 msgstr ""
 
-#: packages/admin/src/routes/bylines.tsx:606
+#: packages/admin/src/routes/bylines.tsx:617
 msgid "This removes the byline profile. Content byline links are removed and lead pointers are cleared."
 msgstr "Hierdurch wird das Autorenprofil entfernt. Links zu Autorenbeiträgen und Verweise werden ebenfalls entfernt."
 
@@ -7695,7 +7704,7 @@ msgstr "WebAuthn wird von diesem Browser nicht unterstützt"
 msgid "Website"
 msgstr "Webseite"
 
-#: packages/admin/src/routes/bylines.tsx:478
+#: packages/admin/src/routes/bylines.tsx:485
 msgid "Website URL"
 msgstr "Webseiten-URL"
 
@@ -7826,7 +7835,7 @@ msgstr "Du kannst eigene Inhalte erstellen und bearbeiten."
 msgid "You can manage content, media, menus, and taxonomies."
 msgstr "Du kannst Inhalte, Medien, Menüs und Taxonomien verwalten."
 
-#: packages/admin/src/routes/bylines.tsx:532
+#: packages/admin/src/routes/bylines.tsx:543
 msgid "You can still edit the fixed fields above. Saving will not touch any stored custom-field values."
 msgstr ""
 
