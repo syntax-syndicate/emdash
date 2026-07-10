@@ -4432,7 +4432,7 @@ msgstr "En boy oranını kilitle"
 msgid "Locked because this field has stored values. Delete the values (or the field) to change this."
 msgstr "Bu alanda kayıtlı değerler olduğundan kilitlendi. Bunu değiştirmek için değerleri (veya alanı) silin."
 
-#: packages/admin/src/components/Header.tsx:101
+#: packages/admin/src/components/Header.tsx:107
 msgid "Log out"
 msgstr "Oturumu kapat"
 
@@ -6536,7 +6536,7 @@ msgid "Security error. Make sure you're on a secure connection."
 msgstr "Güvenlik hatası. Güvenli bir bağlantıda olduğunuzdan emin olun."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:243
-#: packages/admin/src/components/Header.tsx:85
+#: packages/admin/src/components/Header.tsx:91
 #: packages/admin/src/components/settings/SecuritySettings.tsx:95
 msgid "Security Settings"
 msgstr "Güvenlik Ayarları"
@@ -6739,7 +6739,7 @@ msgstr "Kurulum..."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:235
 #: packages/admin/src/components/ContentTypeEditor.tsx:381
-#: packages/admin/src/components/Header.tsx:93
+#: packages/admin/src/components/Header.tsx:99
 #: packages/admin/src/components/PluginManager.tsx:437
 #: packages/admin/src/components/Settings.tsx:62
 #: packages/admin/src/components/Sidebar.tsx:379
@@ -7871,8 +7871,8 @@ msgid "Used to identify this section. Lowercase letters, numbers, and hyphens on
 msgstr "Bu bölümü tanımlamak için kullanılır. Yalnızca küçük harfler, sayılar ve kısa çizgiler."
 
 #: packages/admin/src/components/DeviceAuthorizePage.tsx:223
-#: packages/admin/src/components/Header.tsx:37
-#: packages/admin/src/components/Header.tsx:75
+#: packages/admin/src/components/Header.tsx:43
+#: packages/admin/src/components/Header.tsx:81
 #: packages/admin/src/components/users/UserList.tsx:98
 msgid "User"
 msgstr "Kullanıcı"
@@ -7975,7 +7975,7 @@ msgstr "Görünüm modu"
 msgid "View published {title}"
 msgstr "Yayınlanan {title}'i görüntüle"
 
-#: packages/admin/src/components/Header.tsx:51
+#: packages/admin/src/components/Header.tsx:57
 msgid "View Site"
 msgstr "Siteyi Görüntüle"
 

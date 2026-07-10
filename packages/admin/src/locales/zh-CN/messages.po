@@ -4432,7 +4432,7 @@ msgstr "锁定宽高比"
 msgid "Locked because this field has stored values. Delete the values (or the field) to change this."
 msgstr "已锁定，因为此字段有存储值。删除这些值（或删除该字段）才能更改。"
 
-#: packages/admin/src/components/Header.tsx:101
+#: packages/admin/src/components/Header.tsx:107
 msgid "Log out"
 msgstr "退出登录"
 
@@ -6536,7 +6536,7 @@ msgid "Security error. Make sure you're on a secure connection."
 msgstr "安全错误。请确保您使用的是安全连接。"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:243
-#: packages/admin/src/components/Header.tsx:85
+#: packages/admin/src/components/Header.tsx:91
 #: packages/admin/src/components/settings/SecuritySettings.tsx:95
 msgid "Security Settings"
 msgstr "安全设置"
@@ -6739,7 +6739,7 @@ msgstr "正在设置..."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:235
 #: packages/admin/src/components/ContentTypeEditor.tsx:381
-#: packages/admin/src/components/Header.tsx:93
+#: packages/admin/src/components/Header.tsx:99
 #: packages/admin/src/components/PluginManager.tsx:437
 #: packages/admin/src/components/Settings.tsx:62
 #: packages/admin/src/components/Sidebar.tsx:379
@@ -7871,8 +7871,8 @@ msgid "Used to identify this section. Lowercase letters, numbers, and hyphens on
 msgstr "用于标识此区块。仅限小写字母、数字和连字符。"
 
 #: packages/admin/src/components/DeviceAuthorizePage.tsx:223
-#: packages/admin/src/components/Header.tsx:37
-#: packages/admin/src/components/Header.tsx:75
+#: packages/admin/src/components/Header.tsx:43
+#: packages/admin/src/components/Header.tsx:81
 #: packages/admin/src/components/users/UserList.tsx:98
 msgid "User"
 msgstr "用户"
@@ -7975,7 +7975,7 @@ msgstr "查看模式"
 msgid "View published {title}"
 msgstr "查看已发布的 {title}"
 
-#: packages/admin/src/components/Header.tsx:51
+#: packages/admin/src/components/Header.tsx:57
 msgid "View Site"
 msgstr "查看站点"
 

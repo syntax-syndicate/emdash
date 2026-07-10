@@ -4433,7 +4433,7 @@ msgstr "تثبيت نسبة العرض إلى الارتفاع"
 msgid "Locked because this field has stored values. Delete the values (or the field) to change this."
 msgstr ""
 
-#: packages/admin/src/components/Header.tsx:101
+#: packages/admin/src/components/Header.tsx:107
 msgid "Log out"
 msgstr "تسجيل الخروج"
 
@@ -6537,7 +6537,7 @@ msgid "Security error. Make sure you're on a secure connection."
 msgstr "خطأ أمني. تأكد من أنك على اتصال آمن."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:243
-#: packages/admin/src/components/Header.tsx:85
+#: packages/admin/src/components/Header.tsx:91
 #: packages/admin/src/components/settings/SecuritySettings.tsx:95
 msgid "Security Settings"
 msgstr "إعدادات الأمن"
@@ -6740,7 +6740,7 @@ msgstr "جاري الإعداد..."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:235
 #: packages/admin/src/components/ContentTypeEditor.tsx:381
-#: packages/admin/src/components/Header.tsx:93
+#: packages/admin/src/components/Header.tsx:99
 #: packages/admin/src/components/PluginManager.tsx:437
 #: packages/admin/src/components/Settings.tsx:62
 #: packages/admin/src/components/Sidebar.tsx:379
@@ -7872,8 +7872,8 @@ msgid "Used to identify this section. Lowercase letters, numbers, and hyphens on
 msgstr "يُستخدم لتحديد هوية هذا القسم. أحرف صغيرة وأرقام وشرطات فقط."
 
 #: packages/admin/src/components/DeviceAuthorizePage.tsx:223
-#: packages/admin/src/components/Header.tsx:37
-#: packages/admin/src/components/Header.tsx:75
+#: packages/admin/src/components/Header.tsx:43
+#: packages/admin/src/components/Header.tsx:81
 #: packages/admin/src/components/users/UserList.tsx:98
 msgid "User"
 msgstr "المستخدم"
@@ -7976,7 +7976,7 @@ msgstr "وضع العرض"
 msgid "View published {title}"
 msgstr "عرض {title} المنشور"
 
-#: packages/admin/src/components/Header.tsx:51
+#: packages/admin/src/components/Header.tsx:57
 msgid "View Site"
 msgstr "عرض الموقع"
 

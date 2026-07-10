@@ -4429,7 +4429,7 @@ msgstr "ล็อกอัตราส่วนภาพ"
 msgid "Locked because this field has stored values. Delete the values (or the field) to change this."
 msgstr ""
 
-#: packages/admin/src/components/Header.tsx:101
+#: packages/admin/src/components/Header.tsx:107
 msgid "Log out"
 msgstr "ออกจากระบบ"
 
@@ -6533,7 +6533,7 @@ msgid "Security error. Make sure you're on a secure connection."
 msgstr "เกิดข้อผิดพลาดด้านความปลอดภัย ตรวจสอบให้แน่ใจว่าคุณกำลังใช้การเชื่อมต่อที่ปลอดภัย"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:243
-#: packages/admin/src/components/Header.tsx:85
+#: packages/admin/src/components/Header.tsx:91
 #: packages/admin/src/components/settings/SecuritySettings.tsx:95
 msgid "Security Settings"
 msgstr "ตั้งค่าความปลอดภัย"
@@ -6736,7 +6736,7 @@ msgstr "กำลังตั้งค่า..."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:235
 #: packages/admin/src/components/ContentTypeEditor.tsx:381
-#: packages/admin/src/components/Header.tsx:93
+#: packages/admin/src/components/Header.tsx:99
 #: packages/admin/src/components/PluginManager.tsx:437
 #: packages/admin/src/components/Settings.tsx:62
 #: packages/admin/src/components/Sidebar.tsx:379
@@ -7868,8 +7868,8 @@ msgid "Used to identify this section. Lowercase letters, numbers, and hyphens on
 msgstr "ใช้เพื่อระบุส่วนนี้ ใช้ได้เฉพาะตัวอักษรพิมพ์เล็ก ตัวเลข และยัติภังค์เท่านั้น"
 
 #: packages/admin/src/components/DeviceAuthorizePage.tsx:223
-#: packages/admin/src/components/Header.tsx:37
-#: packages/admin/src/components/Header.tsx:75
+#: packages/admin/src/components/Header.tsx:43
+#: packages/admin/src/components/Header.tsx:81
 #: packages/admin/src/components/users/UserList.tsx:98
 msgid "User"
 msgstr "ผู้ใช้"
@@ -7972,7 +7972,7 @@ msgstr "โหมดการแสดงผล"
 msgid "View published {title}"
 msgstr "ดู {title} ที่เผยแพร่แล้ว"
 
-#: packages/admin/src/components/Header.tsx:51
+#: packages/admin/src/components/Header.tsx:57
 msgid "View Site"
 msgstr "ดูเว็บไซต์"
 

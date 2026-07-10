@@ -4429,7 +4429,7 @@ msgstr "가로 세로 비율 잠금"
 msgid "Locked because this field has stored values. Delete the values (or the field) to change this."
 msgstr ""
 
-#: packages/admin/src/components/Header.tsx:101
+#: packages/admin/src/components/Header.tsx:107
 msgid "Log out"
 msgstr "로그아웃"
 
@@ -6530,7 +6530,7 @@ msgid "Security error. Make sure you're on a secure connection."
 msgstr "보안 오류입니다. 보안 연결 상태인지 확인하세요."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:243
-#: packages/admin/src/components/Header.tsx:85
+#: packages/admin/src/components/Header.tsx:91
 #: packages/admin/src/components/settings/SecuritySettings.tsx:95
 msgid "Security Settings"
 msgstr "보안 설정"
@@ -6733,7 +6733,7 @@ msgstr "설정 중..."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:235
 #: packages/admin/src/components/ContentTypeEditor.tsx:381
-#: packages/admin/src/components/Header.tsx:93
+#: packages/admin/src/components/Header.tsx:99
 #: packages/admin/src/components/PluginManager.tsx:437
 #: packages/admin/src/components/Settings.tsx:62
 #: packages/admin/src/components/Sidebar.tsx:379
@@ -7865,8 +7865,8 @@ msgid "Used to identify this section. Lowercase letters, numbers, and hyphens on
 msgstr "이 섹션을 식별하는 데 사용됩니다. 소문자, 숫자, 하이픈만 가능합니다."
 
 #: packages/admin/src/components/DeviceAuthorizePage.tsx:223
-#: packages/admin/src/components/Header.tsx:37
-#: packages/admin/src/components/Header.tsx:75
+#: packages/admin/src/components/Header.tsx:43
+#: packages/admin/src/components/Header.tsx:81
 #: packages/admin/src/components/users/UserList.tsx:98
 msgid "User"
 msgstr "사용자"
@@ -7969,7 +7969,7 @@ msgstr "보기 모드"
 msgid "View published {title}"
 msgstr "게시된 {title} 보기"
 
-#: packages/admin/src/components/Header.tsx:51
+#: packages/admin/src/components/Header.tsx:57
 msgid "View Site"
 msgstr "사이트 보기"
 

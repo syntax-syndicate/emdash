@@ -4432,7 +4432,7 @@ msgstr "Méretarány zárolása"
 msgid "Locked because this field has stored values. Delete the values (or the field) to change this."
 msgstr "Zárolva, mert ehhez a mezőhöz tárolt értékek tartoznak. A módosításhoz töröld az értékeket (vagy a mezőt)."
 
-#: packages/admin/src/components/Header.tsx:101
+#: packages/admin/src/components/Header.tsx:107
 msgid "Log out"
 msgstr "Kijelentkezés"
 
@@ -6536,7 +6536,7 @@ msgid "Security error. Make sure you're on a secure connection."
 msgstr "Biztonsági hiba. Ellenőrizd, hogy biztonságos kapcsolaton vagy-e."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:243
-#: packages/admin/src/components/Header.tsx:85
+#: packages/admin/src/components/Header.tsx:91
 #: packages/admin/src/components/settings/SecuritySettings.tsx:95
 msgid "Security Settings"
 msgstr "Biztonsági beállítások"
@@ -6739,7 +6739,7 @@ msgstr "Beállítás..."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:235
 #: packages/admin/src/components/ContentTypeEditor.tsx:381
-#: packages/admin/src/components/Header.tsx:93
+#: packages/admin/src/components/Header.tsx:99
 #: packages/admin/src/components/PluginManager.tsx:437
 #: packages/admin/src/components/Settings.tsx:62
 #: packages/admin/src/components/Sidebar.tsx:379
@@ -7871,8 +7871,8 @@ msgid "Used to identify this section. Lowercase letters, numbers, and hyphens on
 msgstr "A szakasz azonosítására használatos. Csak kisbetűk, számok és kötőjelek."
 
 #: packages/admin/src/components/DeviceAuthorizePage.tsx:223
-#: packages/admin/src/components/Header.tsx:37
-#: packages/admin/src/components/Header.tsx:75
+#: packages/admin/src/components/Header.tsx:43
+#: packages/admin/src/components/Header.tsx:81
 #: packages/admin/src/components/users/UserList.tsx:98
 msgid "User"
 msgstr "Felhasználó"
@@ -7975,7 +7975,7 @@ msgstr "Nézetmód"
 msgid "View published {title}"
 msgstr "Publikált {title} megtekintése"
 
-#: packages/admin/src/components/Header.tsx:51
+#: packages/admin/src/components/Header.tsx:57
 msgid "View Site"
 msgstr "Weboldal megtekintése"
 
